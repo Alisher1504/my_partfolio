@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root{
+    --color1:
+}
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* body{
+    background-image: url(../img/Golden-City-Coast-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* navbar */
+
+.container #tepaga{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.container #tepaga .row1 #silka{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #tepaga .row1 #silka:hover{
+    background-color: white;
+    color: black;
+}
+
+.container #tepaga .row1 a{
+    text-decoration: none;
+}
+
+
+
+
+.container .navbar .container-fluid .offcanvas{
+    background-color: #00030c;
+    width: 300px;
+}
+
+.container .navbar .container-fluid .offcanvas .img{
+    margin: auto;
+}
+
+.container .navbar .container-fluid .offcanvas .img img{
+    width: 180px;
+    height: 180px;
+    background-color: red;
+    border-radius: 100%;
+    border: 9px solid rgb(112, 104, 104);
+}
+
+.container .navbar .container-fluid .offcanvas h1 .nav-link{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Lobster;
+}
+
+.container .navbar .container-fluid a{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .navbar .container-fluid .offcanvas .row1{
+    display: flex;
+    justify-content: center;
+}
+
+.container .navbar .container-fluid .offcanvas .row1 a img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.container .navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link{
+    color: #a7aab4;
+    font-size: 21px;
+    margin-left: 19px;
+    font-family: lobster;
+}
+
+.container .navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover{
+   color: white;
+   font-weight: bold;
+}
+
+/* About */
+
+.box{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+}
+
+.about .chiz{
+    width: 150px;
+    height: 2px;
+    background-color: silver;
+    margin: auto;
+    margin-top: -9px;
+}
+.about .chiz .chiz1{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(70, 70, 250);
+    margin: auto;
+}
+
+.about img{
+    box-shadow: 0px 0px 5px 5px rgba(65, 60, 60, 0.753);
+}
+
+
+/* facts */
+
+.facts .chiz{
+    width: 150px;
+    height: 2px;
+    background-color: silver;
+    margin: auto;
+    margin-top: -6px;
+    margin-bottom: 9px;
+}
+.facts .chiz .chiz1{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(70, 70, 250);
+    margin: auto;
+}
+
+.facts img{
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.facts img:hover{
+    background-color: blue;
+}
+
+.facts .col-sm-3 p{
+    font-weight: bold;
+}
+
+/* skilles */
+
+.skills{
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+}
+
+.skills .chiz{
+    width: 150px;
+    height: 2px;
+    background-color: silver;
+    margin: auto;
+    margin-top: -6px;
+    margin-bottom: 9px;
+}
+.skills .chiz .chiz1{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(70, 70, 250);
+    margin: auto;
+}
+
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  .skills .progress .skill {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #45505b;
+  }
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  .skills .progress-bar-wrap {
+    background: #f2f3f5;
+  }
+  .skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #0563bb;
+  }
+
+/* resume */
+
+.resume .chiz{
+    width: 150px;
+    height: 2px;
+    background-color: silver;
+    margin: auto;
+    margin-top: -6px;
+    margin-bottom: 9px;
+}
+.resume .chiz .chiz1{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(70, 70, 250);
+    margin: auto;
+}
+
+
+
+/* footer */
+
+.foot{
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
